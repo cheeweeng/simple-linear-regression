@@ -51,8 +51,8 @@ The steps are:
 3. Fit the model
 4. save the result summary
 
-4
-4a
+![Image](https://github.com/user-attachments/assets/7667a4de-823d-4cdc-abee-0b19ac37e801)  
+![Image](https://github.com/user-attachments/assets/66384b9a-8ff4-4aca-a9d4-293738313820)  
 
 # Check model assumptions  
 To justify using simple linear regression, check that the four linear regression assumptions are not violated. These assumptions are:
@@ -63,8 +63,8 @@ To justify using simple linear regression, check that the four linear regression
 * Homoscedasticity
 
 # Linearity  
-The linearity assumption requires a linear relationship between the independent and dependent variables. Check this assumption by creating a scatterplot comparing the independent variable with the dependent variable.  
-5
+The linearity assumption requires a linear relationship between the independent and dependent variables. Check this assumption by creating a scatterplot comparing the independent variable with the dependent variable.    
+![Image](https://github.com/user-attachments/assets/291e3db1-3612-4c01-83cd-513a56a7032a)  
 There is a clear linear relationship between TV & Sales, hence the linearity assumption is met.  
 
 # Normality  
@@ -75,8 +75,9 @@ Create two plots to check this assumption:
 * **Plot 1**: Histogram of the residuals
 * **Plot 2**: Q-Q plot of the residuals
 
-6
-7
+![Image](https://github.com/user-attachments/assets/c0b35e99-0636-4944-a3b8-2dc25f7f6438)  
+![Image](https://github.com/user-attachments/assets/9a909ed5-4cf3-410e-b3be-ecf4209ccfd6)
+
 The histogram of the residuals are approximately normally distributed, which supports that the normality assumption is met for this model.The residuals in the Q-Q plot form a straight line, further supporting that the normality assumption is met.  
 
 # Homoscedasticity  
@@ -84,17 +85,18 @@ The **homoscedasticity (constant variance) assumption** is that the residuals ha
 
 Check that this assumption is not violated by creating a scatterplot with the fitted values and residuals. Add a line at $y = 0$ to visualize the variance of residuals above and below $y = 0$.  
 
-8  
+![Image](https://github.com/user-attachments/assets/d8fd9df5-b84f-4eeb-8d3d-e3affaab4c4a)  
 The variance of the residuals is consistant across all  𝑋. Thus, the assumption of homoscedasticity is met.  
 
 # Results and evaluation  
-9  
+![Image](https://github.com/user-attachments/assets/7cbf09aa-5c0c-4abe-a98e-b4c7a24a0fcc)   
 
 ## Interpret model results  
 When TV is used as the independent variable, the coefficient of the intercept is -0.1263 and the slope is 3.5614.  
 $Y = \text{Intercept} + \text{Slope} * X$
 
-$\text{Sales (in millions)} = -0.1263 + 3.5614 * \text{TV (in millions)}$  
+$\text{Sales (in millions)} = -0.1263 + 3.5614 * \text{TV (in millions)}$    
+
 According to the model, when TV is used as the independent variable X, an increase of one million dollars for the TV promotional budget results in an estimated 3.5614 million dollars more in sales.  
 
 ## R-squared interpretation:  
@@ -103,6 +105,8 @@ The linear regression model estimates that 99.9% of the variation in sales is ex
 The R-squared value will depend on the variable selected for X.   
 
 ## Interpretation of interpretation of the p-value and confidence interval for the coefficient estimate of X  
+![Image](https://github.com/user-attachments/assets/3aa0c9da-a142-4896-b707-7a3ced33fbe8)  
+
 when TV is used as the independent variable, it has a p-value of 0.000 and 95% confidence interval between 3.558 and 3.565  
 This means there is a 95% chance the interval [3.558,3.565] contains the true parameter value of the slope. These results indicate little uncertainty in the estimation of the slope of X. Therefore, the business can be confident in the impact TV has on Sales.
 

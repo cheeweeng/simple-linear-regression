@@ -89,7 +89,7 @@ The histogram of the residuals are approximately normally distributed, which sup
 # Homoscedasticity  
 The **homoscedasticity (constant variance) assumption** is that the residuals have a constant variance for all values of `X`.
 
-Check that this assumption is not violated by creating a scatterplot with the fitted values and residuals. Add a line at $y = 0$ to visualize the variance of residuals above and below $y = 0$.  
+Check that this assumption is not violated by creating a scatterplot with the fitted values and residuals. Add a line at y = 0 to visualize the variance of residuals above and below y = 0.  
 
 ![Image](https://github.com/user-attachments/assets/d8fd9df5-b84f-4eeb-8d3d-e3affaab4c4a)  
 The variance of the residuals is consistant across all  𝑋. Thus, the assumption of homoscedasticity is met.  
@@ -99,7 +99,7 @@ The variance of the residuals is consistant across all  𝑋. Thus, the assumpti
 
 ## Interpret model results  
 When TV is used as the independent variable, the coefficient of the intercept is -0.1263 and the slope is 3.5614.  
-<span style="font-size: 40px; font-weight: bold;">𝑌 = Intercept + Slope ∗ 𝑋</span>
+<span style="font-size: 36px; font-weight: bold;">𝑌 = Intercept + Slope ∗ 𝑋</span>
 
 **Sales (in millions)=−0.1263+3.5614∗TV (in millions)**  
 
@@ -114,4 +114,6 @@ The R-squared value will depend on the variable selected for X.
 ![Image](https://github.com/user-attachments/assets/3aa0c9da-a142-4896-b707-7a3ced33fbe8)  
 
 when TV is used as the independent variable, it has a p-value of 0.000 and 95% confidence interval between 3.558 and 3.565  
-This means there is a 95% chance the interval [3.558,3.565] contains the true parameter value of the slope. These results indicate little uncertainty in the estimation of the slope of X. Therefore, the business can be confident in the impact TV has on Sales.
+This means there is a 95% chance the interval [3.558,3.565] contains the true parameter value of the slope. These results indicate little uncertainty in the estimation of the slope of X. Therefore, the business can be confident in the impact TV has on Sales.  
+
+Back to [Projects portfolio](https://cheeweeng.github.io/)

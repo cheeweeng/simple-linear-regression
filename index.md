@@ -61,7 +61,8 @@ To justify using simple linear regression, check that the four linear regression
 * Linearity
 * Independent Observations
 * Normality
-* Homoscedasticity  
+* Homoscedasticity
+
 # Linearity  
 The linearity assumption requires a linear relationship between the independent and dependent variables. Check this assumption by creating a scatterplot comparing the independent variable with the dependent variable.
 

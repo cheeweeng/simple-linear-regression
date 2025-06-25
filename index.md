@@ -51,6 +51,7 @@ The steps are:
 3. Fit the model
 4. save the result summary
 
+
 ![Image](https://github.com/user-attachments/assets/7667a4de-823d-4cdc-abee-0b19ac37e801)  
 ![Image](https://github.com/user-attachments/assets/66384b9a-8ff4-4aca-a9d4-293738313820)  
 
@@ -63,7 +64,8 @@ To justify using simple linear regression, check that the four linear regression
 * Homoscedasticity
 
 # Linearity  
-The linearity assumption requires a linear relationship between the independent and dependent variables. Check this assumption by creating a scatterplot comparing the independent variable with the dependent variable.    
+<p>The linearity assumption requires a linear relationship between the independent and dependent variables. Check this assumption by creating a scatterplot comparing the independent variable with the dependent variable.</p>
+
 ![Image](https://github.com/user-attachments/assets/291e3db1-3612-4c01-83cd-513a56a7032a)  
 There is a clear linear relationship between TV & Sales, hence the linearity assumption is met.  
 
@@ -74,6 +76,7 @@ Create two plots to check this assumption:
 
 * **Plot 1**: Histogram of the residuals
 * **Plot 2**: Q-Q plot of the residuals
+
 
 ![Image](https://github.com/user-attachments/assets/c0b35e99-0636-4944-a3b8-2dc25f7f6438)  
 ![Image](https://github.com/user-attachments/assets/9a909ed5-4cf3-410e-b3be-ecf4209ccfd6)

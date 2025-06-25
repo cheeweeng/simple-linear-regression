@@ -30,9 +30,16 @@ Some reasons for conducting EDA before conducting a simple linear regression mod
 * Reviewing the distribution of features, such as minimum, mean, and maximum values
 * Plotting the relationship between the independent and dependent variables to visualize which feature is the best choice for X
 * Identifying issues with the data, such as incorrect values (e.g., typos) or missing values
+![Image](https://github.com/user-attachments/assets/8d27a815-7b5b-4b6e-b0d7-249a0de197a8)
 
 Before fitting the model, ensure the Sales for each promotion (i.e., row) is present. If the Sales in a row is missing, that row isn't of much value to the simple linear regression model.   
+![Image](https://github.com/user-attachments/assets/f9010b37-3001-49ee-b633-acb2ac241cf4)  
+
+![Image](https://github.com/user-attachments/assets/258ca31c-9272-47eb-9344-04729cd994cc)  
 
 # Model building  
 Create a pairplot to visualize the relationships between pairs of variables in the data. You will use this to visually determine which variable has the strongest linear relationship with `Sales`. This will help you select the X variable for the simple linear regression.   
 
+![Image](https://github.com/user-attachments/assets/f09c8f52-4d41-4c80-99af-7c6f325a71d8)  
+![Image](https://github.com/user-attachments/assets/f77f1ab0-ed12-4b99-95e4-b3a3c1b03137)  
+From the pairplot viz, TV clearly shows the strongest linear relationship with Sales. Hence TV was slected as the x variable for the simple linear regression

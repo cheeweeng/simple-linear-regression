@@ -1,9 +1,9 @@
 ---
 title:
 ---
-# simple-linear-regression
+# Simple linear regression
 
-This lab uses simple linear regression to explore the relationship between two continuous variables. 
+This lab uses [simple linear regression](https://github.com/cheeweeng/simple-linear-regression) to explore the relationship between two continuous variables. 
 The project will perform a complete simple linear regression analysis, which includes:  
 1.  creating and fitting a model,
 2.  checking model assumptions,
@@ -99,14 +99,14 @@ The variance of the residuals is consistant across all  𝑋. Thus, the assumpti
 
 ## Interpret model results  
 When TV is used as the independent variable, the coefficient of the intercept is -0.1263 and the slope is 3.5614.  
-$Y = \text{Intercept} + \text{Slope} * X$
+<span style="font-size: 40px; font-weight: bold;">𝑌 = Intercept + Slope ∗ 𝑋</span>
 
-$\text{Sales (in millions)} = -0.1263 + 3.5614 * \text{TV (in millions)}$    
+**Sales (in millions)=−0.1263+3.5614∗TV (in millions)**  
 
 According to the model, when TV is used as the independent variable X, an increase of one million dollars for the TV promotional budget results in an estimated 3.5614 million dollars more in sales.  
 
 ## R-squared interpretation:  
-Using `TV` as X results in a simple linear regression model with $R^{2} = 0.999$. In other words, `TV` explains $99.9\%$ of the variation in `Sales`.  
+Using `TV` as X results in a simple linear regression model with **R-squared = 0.999**. In other words, `TV` explains 99.9% of the variation in `Sales`.  
 The linear regression model estimates that 99.9% of the variation in sales is explained by the TV promotional budget. In other words, nearly all of the variation in sales can be explained by the TV promotional budget alone, making TV an excellent predictor of sales. TV spending is a strong predictor of Sales
 The R-squared value will depend on the variable selected for X.   
 

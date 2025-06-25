@@ -1,7 +1,6 @@
 ---
-title:
+title: Simple Linear Regression
 ---
-# Simple linear regression
 
 This lab uses [simple linear regression](https://github.com/cheeweeng/simple-linear-regression) to explore the relationship between two continuous variables. 
 The project will perform a complete simple linear regression analysis, which includes:  

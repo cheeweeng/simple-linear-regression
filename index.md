@@ -61,10 +61,9 @@ To justify using simple linear regression, check that the four linear regression
 * Linearity
 * Independent Observations
 * Normality
-* Homoscedasticity
-
+* Homoscedasticity  
 # Linearity  
-<p>The linearity assumption requires a linear relationship between the independent and dependent variables. Check this assumption by creating a scatterplot comparing the independent variable with the dependent variable.</p>
+The linearity assumption requires a linear relationship between the independent and dependent variables. Check this assumption by creating a scatterplot comparing the independent variable with the dependent variable.
 
 ![Image](https://github.com/user-attachments/assets/291e3db1-3612-4c01-83cd-513a56a7032a)  
 There is a clear linear relationship between TV & Sales, hence the linearity assumption is met.  
